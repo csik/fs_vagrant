@@ -1,0 +1,17 @@
+VirtualBox VM 4.3.24 r98716 darwin.amd64 (Mar  2 2015 15:35:32) release log
+00:00:00.435778 Log opened 2015-10-28T16:09:34.599152000Z
+00:00:00.435779 Build Type: release
+00:00:00.435788 OS Product: Darwin
+00:00:00.435793 OS Release: 14.5.0
+00:00:00.435797 OS Version: Darwin Kernel Version 14.5.0: Tue Sep  1 21:23:09 PDT 2015; root:xnu-2782.50.1~1/RELEASE_X86_64
+00:00:00.435868 DMI Product Name: MacBookPro11,2
+00:00:00.435910 DMI Product Version: 1.0
+00:00:00.435916 Host RAM: 16384MB total, 5595MB available
+00:00:00.435917 Executable: /Applications/VirtualBox.app/Contents/MacOS/VirtualBoxVM
+00:00:00.435918 Process ID: 11637
+00:00:00.435918 Package type: DARWIN_64BITS_GENERIC
+00:00:00.436755 Installed Extension Packs:
+00:00:00.436762   None installed!
+00:00:00.440792 Power up failed (vrc=VINF_SUCCESS, rc=NS_ERROR_FAILURE (0X80004005))
+00:00:00.497455 UIMediumEnumerator: Medium-enumeration finished!
+00:00:00.811996 UIMachineView::storeGuestSizeHint: Storing guest size-hint for screen 0 as 640x480
