@@ -47,7 +47,7 @@ sed -i 's,<param name="rtp-ip" value="$${local_ip_v4}"/>,<param name="rtp-ip" va
 sed -i 's,<param name="sip-ip" value="$${local_ip_v4}"/>,<param name="sip-ip" value="192.168.33.10"/>,g' /usr/local/freeswitch/conf/sip_profiles/external.xml
 sed -i 's,<param name="rtp-ip" value="$${local_ip_v4}"/>,<param name="rtp-ip" value="192.168.33.10"/>,g' /usr/local/freeswitch/conf/sip_profiles/external.xml
 
-
+export PATH=$PATH:/usr/local/freeswitch/bin
 apt-get -y install screen
 screen -dmS FREESWITCH /usr/local/freeswitch/bin/freeswitch
 
