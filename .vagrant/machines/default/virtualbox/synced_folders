@@ -1,1 +1,1 @@
-{"virtualbox":{"/srv/salt":{"guestpath":"/srv/salt","hostpath":"/Users/csik/Documents/code/jessie/salt/roots/freeswitch","disabled":false},"/etc/freeswitch":{"guestpath":"/etc/freeswitch","hostpath":"/Users/csik/Documents/code/jessie/freeswitch","disabled":false},"/vagrant":{"guestpath":"/vagrant","hostpath":"/Users/csik/Documents/code/jessie","disabled":false}}}
+{"virtualbox":{"/vagrant":{"guestpath":"/vagrant","hostpath":"/Users/csik/Documents/code/njessie/fs_vagrant","disabled":false}}}

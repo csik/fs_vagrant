@@ -42,10 +42,10 @@ sysctl -w net.core.rmem_max=16777216
 sysctl -w net.core.wmem_max=16777216
 sysctl -w kernel.core_pattern=core.%p
 
-sed -i 's,<param name="sip-ip" value="$${local_ip_v4}"/>,<param name="sip-ip" value="192.168.33.10"/>,g' /usr/src/freeswitch.git/conf/vanilla/sip_profiles/external.xml
-sed -i 's,<param name="rtp-ip" value="$${local_ip_v4}"/>,<param name="rtp-ip" value="192.168.33.10"/>,g' /usr/src/freeswitch.git/conf/vanilla/sip_profiles/external.xml
-sed -i 's,<param name="sip-ip" value="$${local_ip_v4}"/>,<param name="sip-ip" value="192.168.33.10"/>,g' /usr/src/freeswitch.git/conf/vanilla/sip_profiles/external.xml
-sed -i 's,<param name="rtp-ip" value="$${local_ip_v4}"/>,<param name="rtp-ip" value="192.168.33.10"/>,g' /usr/src/freeswitch.git/conf/vanilla/sip_profiles/external.xml
+sed -i 's,<param name="sip-ip" value="$${local_ip_v4}"/>,<param name="sip-ip" value="192.168.33.10"/>,g' /usr/local/freeswitch/conf/sip_profiles/internal.xml
+sed -i 's,<param name="rtp-ip" value="$${local_ip_v4}"/>,<param name="rtp-ip" value="192.168.33.10"/>,g' /usr/local/freeswitch/conf/sip_profiles/internal.xml
+sed -i 's,<param name="sip-ip" value="$${local_ip_v4}"/>,<param name="sip-ip" value="192.168.33.10"/>,g' /usr/local/freeswitch/conf/sip_profiles/external.xml
+sed -i 's,<param name="rtp-ip" value="$${local_ip_v4}"/>,<param name="rtp-ip" value="192.168.33.10"/>,g' /usr/local/freeswitch/conf/sip_profiles/external.xml
 
 
 apt-get install screen

@@ -68,21 +68,7 @@ Vagrant.configure(2) do |config|
   #   sudo apt-get update
   #   sudo apt-get install -y apache2
   # SHELL
-  config.vm.synced_folder "salt/roots/freeswitch/", "/srv/salt/"
-  config.vm.synced_folder "freeswitch", "/etc/freeswitch"
 
-#  config.vm.provision :salt do |salt|
-#    salt.minion_config = "salt/minion"
-#    salt.bootstrap_options = "-F -c /tmp -P"
-#    salt.run_highstate = true
-#    salt.pillar({
-#     "freeswitch" => {
-#        "version" => "v1.6",
-#        "use_debs" => true,
-#     }
-#    })
-#    salt.log_level = 'all'
-#  end
 
    config.vm.provision "shell", path: "freeswitch.sh"
 end
