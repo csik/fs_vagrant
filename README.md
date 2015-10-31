@@ -21,8 +21,9 @@ ps -e
 ```
 netstat -lnp | grep 5060
 ```
-(Is tcp & udp traffic on 192.168.33.10:5060?  If not, hit me up on what's app)
-launch freeswitch:
+(TCP & UDP traffic on 192.168.33.10:5060?  If not, hit me up on what's app)
+
+Launch freeswitch:
 ```
 fs_cli
 ```
