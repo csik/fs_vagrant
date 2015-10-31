@@ -29,13 +29,13 @@ fs_cli
 ```
 In fs_cli: try status, help, welcome to the bear cave known as Freeswitch.
 
-If everything is running you can test it from your non-vagrant machine.  Let's do a SIP 
-(standard internet telephony) test using a softphone to call different test lines in 
-Freeswitch.  SIP registers with a server to make or receive a call.
+If everything is running you can test it from your host (non-vagrant) OS.  Try a SIP 
+(the standard of internet telephony) test using a softphone to call different test lines in 
+Freeswitch.  SIP registers with Freeswitch to make or receive a call.
 
-On your computer, use a softphone like Telephone (mac) or x-lite (all).  The configuration should be something like:
-user id = 1001 or 1001@192.168.1.71
-domain = 192.168.33.10
-password = 1234 #CHANGE THIS ASAP
+On your computer, use a softphone like Telephone (OSX) or x-lite (all).  The configuration should be something like:
+`user id = 1001` #or 1001@192.168.1.71
+`domain = 192.168.33.10`
+`password = 1234` #CHANGE THIS IN FREESWITCH SOON
 
-Try calling 9198, 9196, and 1000.  With Telephone you can register 1000 & 1001 and have them call each other.
+Try calling 9198, 9196, and 1000.  With Telephone you can register both 1000 & 1001 and have them call each other.
