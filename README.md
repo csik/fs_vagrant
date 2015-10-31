@@ -1,31 +1,31 @@
 # fs_vagrant
 ### A Vagrant box for Freeswitch running on Debian Jessie
-# I make no claims to being a freeswitch expert, this is only for a little local testing, 
-# please don't use for anything serious.
+I make no claims to being a freeswitch expert, this is only for a little local testing, 
+please don't use for anything serious, please do let me know what I can do to improve this.
 
 To get the vagrant box running:
-'''
+```
 git clone https://github.com/csik/fs_vagrant.git
 cd fs_vagrant
 
 vagrant up
-'''
+```
 go plant a tree
-'''
+```
 vagrant ssh
 
 ps -e
-'''
-(do you see Freeswitch?  If not, call me)
+```
+(Do you see Freeswitch?  If not, call me)
 
-'''
+```
 netstat -lnp | grep 5060
-'''
+```
 (Is tcp & udp traffic on 192.168.33.10:5060?  If not, hit me up on what's app)
 launch freeswitch:
-'''
+```
 fs_cli
-'''
+```
 In fs_cli: try status, help, welcome to the bear cave known as Freeswitch.
 
 If everything is running you can test it from your non-vagrant machine.  Let's do a SIP 
